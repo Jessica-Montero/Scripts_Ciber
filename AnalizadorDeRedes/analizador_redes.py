@@ -60,7 +60,7 @@ def resolver_dominio(dominio):
         print("\nDirecciones IPv4:")
         for respuesta in respuestas_v4:
             print(f"\t{respuesta}")
-    except:
+    except Exception as e:
         print("\nNo se pudo obtener dirección IPv4.")
 
     # IPv6 - tipo AAAA
@@ -69,7 +69,7 @@ def resolver_dominio(dominio):
         print("\nDirecciones IPv6:")
         for respuesta in respuestas_v6:
             print(f"\t{respuesta}")
-    except:
+    except Exception as e:
         print("\nNo se pudo obtener dirección IPv6.")
 
     print("-" * 40)
@@ -78,14 +78,20 @@ def resolver_dominio(dominio):
 def info_whois(dominio): 
     print(f"\nInformación WHOIS para: {dominio}")
     try:
-        #info: consulta una base de datos pública para obtener la información y posteriormente mostrarla
+        # info: consulta una base de datos pública para obtener la información y posteriormente mostrarla
         info = whois.whois(dominio)
         print(f"\tRegistrante: {info.get('name')}")
         print(f"\tOrganización: {info.get('org')}")
         print(f"\tPaís: {info.get('country')}")
-        print(f"\tFecha de creación: {info.get('creation_date')}")
+        
+        fecha = info.get('creation_date')
+        if isinstance(fecha, list):
+            fecha = fecha[0]
+        print(f"\tFecha de creación: {fecha}")
+    
     except Exception as e:
         print(f"\nError al obtener WHOIS: {e}")
+    
     print("-" * 40)
 
 
