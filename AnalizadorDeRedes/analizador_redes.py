@@ -144,7 +144,12 @@ def main():
     while True:
         dominio_usuario = input("\nPor favor, ingresa el dominio que deseas analizar: ").strip()
 
-        # Validación básica del dominio
+        # Validaciones del dominio
+        if dominio_usuario.startswith("http://") or dominio_usuario.startswith("https://") or dominio_usuario.startswith("www."):
+            print("\nPor favor, ingresa solo el dominio sin 'http://', 'https://' ni 'www.'")
+            print("Ejemplo válido: 'google.com'\n")
+            continue
+
         if not dominio_usuario or "." not in dominio_usuario:
             print("\nDominio inválido. Intenta con uno como 'google.com'")
             continue
