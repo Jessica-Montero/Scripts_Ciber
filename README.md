@@ -30,6 +30,17 @@ Funcionalidades: extracción de enlaces, simulación de navegación con mechaniz
 
 Objetivo: practicar técnicas de extracción de información web de manera segura y educativa.
 
+* Keylogger Educativo en Python
+Herramienta educativa que captura las teclas presionadas junto con información del sistema. Diseñado solo para **aprendizaje y pruebas en entornos controlados**.
+
+Funcionalidades:
+- Recolecta información del sistema (SO, procesador)
+- Registra teclas en `keylog.txt`
+- Soporta Windows, Linux y macOS
+- Se detiene al presionar `ESC`
+
+Uso ético: Solo en tu propio equipo o con permiso explícito
+
 [!] Características generales de los proyectos
 
 Lenguaje principal: Python
@@ -39,3 +50,4 @@ Multiplataforma: Windows, Linux, macOS
 Documentación profesional: cada proyecto incluye README detallado
 
 Enfoque educativo y práctico en ciberseguridad, redes y automatización
+
