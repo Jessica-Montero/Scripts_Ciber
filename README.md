@@ -1,53 +1,131 @@
-* Gusano Educativo (Worm)
+Proyectos incluidos
 
-Simula la propagación de un gusano de manera educativa y no destructiva.
+Gusano Educativo (Worm)
 
-Funcionalidades: recolección de información del sistema, autoejecución, búsqueda de archivos .txt y creación de copias “infectadas” con un marcador.
+Simulación educativa y no destructiva del comportamiento de un gusano.
 
-Objetivo: demostrar técnicas de propagación y persistencia de malware en entornos controlados.
+Funcionalidades:
 
-* SECUREPY (Security in Python)
+Recolección de información básica del sistema
+
+Autoejecución simulada
+
+Búsqueda de archivos .txt
+
+Creación de copias “infectadas” con un marcador identificable
+
+Objetivo:
+Demostrar técnicas de propagación y persistencia de malware en entornos controlados, con fines académicos.
+
+Security Toolkit (Educational)
+
+Toolkit educativo desarrollado en Python que simula un escáner básico de ciberseguridad.
+
+Funcionalidades:
+
+Información del sistema operativo
+
+Escaneo educativo de configuraciones inseguras
+
+Clasificación de hallazgos por severidad
+
+Uso de colores ANSI y efectos en consola
+
+Menú interactivo y manejo de interrupciones (Ctrl+C)
+
+Objetivo:
+Aprender fundamentos de ciberseguridad, buenas prácticas, organización de proyectos y uso de Python aplicado a seguridad.
+
+Incluye versión monolítica y modular.
+
+SECUREPY (Security in Python)
 
 Sistema integral de monitoreo y análisis de seguridad en Python.
 
-Funcionalidades: monitoreo de red, análisis de registros, detección de vulnerabilidades, prevención de ataques, análisis web, alertas y generación de informes en PDF.
+Funcionalidades:
 
-Objetivo: aprender y practicar detección de amenazas, análisis forense y respuesta ante incidentes.
+Monitoreo de red
 
-* Analizador de Redes y Sistemas Operativos
+Análisis de registros
+
+Detección de vulnerabilidades
+
+Prevención de ataques
+
+Análisis web
+
+Alertas y generación de reportes en PDF
+
+Objetivo:
+Practicar detección de amenazas, análisis forense y respuesta ante incidentes.
+
+Analizador de Redes y Sistemas Operativos
 
 Herramienta de diagnóstico de dominios y del sistema local.
 
-Funcionalidades: resolución DNS (IPv4/IPv6), consulta WHOIS, prueba de conectividad (ping) y obtención de información del sistema operativo.
+Funcionalidades:
 
-Objetivo: educativo, para entender redes, WHOIS y análisis de conectividad.
+Resolución DNS (IPv4 / IPv6)
 
-* Extractor y Analizador de Contenido Web
+Consulta WHOIS
+
+Pruebas de conectividad (ping)
+
+Obtención de información del sistema operativo
+
+Objetivo:
+Comprender fundamentos de redes, conectividad y análisis de dominios.
+
+Extractor y Analizador de Contenido Web
 
 Script para web scraping y análisis de páginas HTML.
 
-Funcionalidades: extracción de enlaces, simulación de navegación con mechanize, extracción de párrafos, detección de correos electrónicos y análisis de subpáginas.
+Funcionalidades:
 
-Objetivo: practicar técnicas de extracción de información web de manera segura y educativa.
+Extracción de enlaces
 
-* Keylogger Educativo en Python
-Herramienta educativa que captura las teclas presionadas junto con información del sistema. Diseñado solo para **aprendizaje y pruebas en entornos controlados**.
+Simulación de navegación con mechanize
+
+Extracción de párrafos
+
+Detección de correos electrónicos
+
+Análisis de subpáginas
+
+Objetivo:
+Practicar técnicas de extracción de información web de forma segura y educativa.
+
+Keylogger Educativo en Python
+
+Herramienta educativa que captura teclas presionadas junto con información del sistema.
+
+Uso exclusivo para aprendizaje y pruebas en entornos controlados.
 
 Funcionalidades:
-- Recolecta información del sistema (SO, procesador)
-- Registra teclas en `keylog.txt`
-- Soporta Windows, Linux y macOS
-- Se detiene al presionar `ESC`
 
-Uso ético: Solo en tu propio equipo o con permiso explícito
+Recolección de información del sistema (SO, procesador)
 
-[!] Características generales de los proyectos
+Registro de teclas en keylog.txt
+
+Compatible con Windows, Linux y macOS
+
+Detención segura al presionar la tecla ESC
+
+Uso ético:
+Solo en el propio equipo o con permiso explícito.
+
+Características generales
 
 Lenguaje principal: Python
 
-Multiplataforma: Windows, Linux, macOS
+Multiplataforma: Windows, Linux y macOS
 
-Documentación profesional: cada proyecto incluye README detallado
+Enfoque educativo y práctico en:
 
-Enfoque educativo y práctico en ciberseguridad, redes y automatización
+Ciberseguridad
 
+Redes
+
+Automatización
+
+Documentación clara y estructurada mediante archivos README
