@@ -1,3 +1,19 @@
+*** Aviso legal / Disclaimer
+
+Todos los proyectos contenidos en este repositorio han sido desarrollados exclusivamente con fines educativos y académicos.
+
+Las herramientas, scripts y simulaciones aquí presentadas no están diseñadas para ser utilizadas en sistemas, redes o entornos sin autorización explícita. El uso indebido de cualquier contenido de este repositorio es responsabilidad exclusiva del usuario.
+
+Estos proyectos tienen como objetivo:
+
+- Comprender el funcionamiento interno de amenazas y defensas
+
+- Practicar programación segura 
+
+- Fortalecer conocimientos en ciberseguridad, redes y automatización
+
+*** El autor no se hace responsable por el uso inapropiado o ilegal de la información aquí contenida.
+
 Proyectos incluidos
 
 Gusano Educativo (Worm)
